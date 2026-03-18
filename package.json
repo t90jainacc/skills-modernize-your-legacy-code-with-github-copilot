@@ -1,0 +1,16 @@
+{
+  "name": "accounting-app",
+  "version": "1.0.0",
+  "description": "Node.js rewrite of COBOL account management system.",
+  "main": "src/accounting/index.js",
+  "scripts": {
+    "start": "node src/accounting/index.js",
+    "test": "jest --runInBand"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  },
+  "keywords": ["cobol", "account", "cli", "legacy"],
+  "author": "",
+  "license": "MIT"
+}
